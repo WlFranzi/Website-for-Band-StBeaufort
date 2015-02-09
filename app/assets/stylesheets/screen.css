@@ -12,15 +12,6 @@
 */
 
 
-body { background: #333; font:14px/21px Helvetica, Arial, sans-serif; color: #333; margin: 0; padding: 0; }
-a { color: #ccc; text-decoration: underline; }
-a:hover { color: #fb2b2b; }
-h1, h2 { font-size: 26px; line-height: 28px; font-weight: normal; letter-spacing: -1px; color: #fff; }
-h3 { font-size: 18px; font-weight: normal; margin: 8px 0; }
-h4 { font-size: 14px; font-weight: normal; margin: 0; }
-h5 { font-size: 12px; font-weight: normal; margin: 0; }
-ul { margin-left: 20px; }
-ol { margin-left: 36px; }
 
 
 /*
@@ -30,11 +21,40 @@ ol { margin-left: 36px; }
 */
 
 
-#wrapper { width: 960px; margin: 0 auto; padding: 48px 0 72px; }
-#main { width: 640px; float: left; }
+#wrapper { 
+	width: 960px; 
+	margin: 0 auto; 
+	padding: 48px 0 72px; 
+}
+
+#main { 
+width: 310px;
+float: left;
+background-color: #000;
+}
+
+#main a {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+#main ul {
+	padding-top: 30px;
+	margin-left: 13px;
+}
+
+
 #main > p, #main > div { margin-left: 7px; }
-#sidebar { width: 280px; float: right; }
-#sidebar ol { margin: 12px 0 12px 22px; }
+
+#sidebar { 
+	width: 280px; 
+	float: right; 
+}
+
+#sidebar ol { 
+	margin: 12px 0 12px 22px; 
+}
 /*
 	----------------------------
 	PAGE/SECTION SPECIFIC
@@ -42,7 +62,10 @@ ol { margin-left: 36px; }
 */
 
 
-#video-controls { width: 333px; }
+#video-controls { 
+	width: 333px; 
+	background-color: #000;
+}
 #video-controls a { color: #ddd; text-decoration: underline; }
 
 

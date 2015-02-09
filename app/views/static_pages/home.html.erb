@@ -8,26 +8,28 @@ $('document').ready(function() {
 </script>
 
 
+
 <div id="wrapper" class="clearfix">
 	<div id="main">
-		<a href="../../static_pages/home"><img src="../images/logo.jpg" alt="St. Beaufort Logo" id="logo" /></a>
-		<p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
-		<div class="black-50">
+	<div class="black-50">
+		<i href="../../static_pages/home"><img src="../images/logo.jpg" alt="St. Beaufort Logo" id="logo" style="width:272px;height:272px" /></i>
 			<ul style="list-style-type:none">
-			 <li></li>
 			 <li class="nav link"> <%= link_to 'Home', static_pages_home_path %> </li>
+			 <li> ________________________</li>
 			 <li class="nav link"> <%= link_to 'Music', static_pages_music_path %> </li>
-			 <li href="../../static_pages/music" class="link music">Music</li>
-			 <li href="../../static_pages/videos" class="link videos">Videos&Images</li>
-			 <li href="../../static_pages/gigs" class="link gigs">Gigs</li>
-			 <li href="../../static_pages/contact" class="link home">Contact</li>
+			 <li> ________________________</li>
+			 <li class="nav link"> <%= link_to 'Contact', static_pages_contact_path %> </li>
 			</ul>  
-		</div>
 	</div>
+	</div>
+
 	<div id="sidebar">
-		<div class="black-50">
-			<h2>stay connected</h2>
-			<p><a href="http://code.google.com/p/jquery-tubular/">Download jQuery tubular on Google Code</a></p>
-		</div>
+	<div class="black-50">
+		<h2>stay connected</h2>
+		<p><a href="http://code.google.com/p/jquery-tubular/">Download jQuery tubular on Google Code</a></p>
+	</div>
+	<div class= "controlls"
+		<p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
+	</div>
 	</div>
 </div><!-- #wrapper -->

@@ -1,2 +1,16 @@
-<h1>StaticPages#music</h1>
-<p>Find me in app/views/static_pages/music.html.erb</p>
+<script>
+$(document).ready(function(){
+	$("#closead").click(function() {
+    		$("#ads").css("display","none");
+	});
+	
+	$frameheight = $(window).height() - 40;
+	$(".sourceView").css("height",$frameheight);
+	
+	$(window).resize(function() {
+		$frameheight = $(window).height() - 40 ;
+		$(".sourceView").css("height",$frameheight);
+	});
+	
+});
+</script>
