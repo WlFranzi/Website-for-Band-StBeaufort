@@ -10,3 +10,4 @@ ActionMailer::Base.mail(:from => 'from@domain.com', :to => 'to@domain.com', :sub
 	  	:subject => "A new contact form message from #{@name}", 
 	  	:body => @message).deliver
 end
+
