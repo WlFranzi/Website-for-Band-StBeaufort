@@ -50,6 +50,7 @@ background-color: #000;
 #sidebar { 
 	width: 280px; 
 	float: right; 
+	bottom: 0;
 }
 
 #sidebar ol { 
@@ -65,9 +66,17 @@ background-color: #000;
 #video-controls { 
 	width: 333px; 
 	background-color: #000;
+	position: absolute;
+	bottom: 20px;
 }
 #video-controls a { color: #ddd; text-decoration: underline; }
 
+.black-50-social {
+	background-color: #000;
+	position: absolute;
+	bottom: 100px;
+	width: 333px;
+}
 
 /*
 	----------------------------
