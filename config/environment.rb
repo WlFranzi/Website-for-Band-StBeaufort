@@ -14,4 +14,3 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'stbeaufort.herokuapp.com',
   :enable_starttls_auto => true
 }
-
