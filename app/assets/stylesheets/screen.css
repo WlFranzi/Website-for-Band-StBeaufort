@@ -67,14 +67,15 @@ background-color: #000;
 	width: 333px; 
 	background-color: #000;
 	position: absolute;
-	bottom: 20px;
+	bottom: 72px;
 }
 #video-controls a { color: #ddd; text-decoration: underline; }
 
 .black-50-social {
 	background-color: #000;
 	position: absolute;
-	bottom: 100px;
+	color: #fff;
+	bottom: 130px;
 	width: 333px;
 }
 
