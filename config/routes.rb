@@ -7,9 +7,14 @@ Rails.application.routes.draw do
 
   get 'static_pages/music'
 
-  post 'static_pages/thank_you'
+  get 'contact', to: 'messages#new', as: 'contact'
+ 
+  post 'contact', to: 'messages#create'
 
   root 'static_pages#home'
+
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

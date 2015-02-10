@@ -56,6 +56,9 @@ background-color: #000;
 	margin-bottom: 10px;
 }
 
+.black-50 li {
+	padding-top: 3px;
+}
 
 .slide{
 	background-attachment: fixed;
@@ -89,8 +92,12 @@ background-color: #000;
 	background-image:url('../.../images/arrow.png');
 }
 .button:hover{
-	background-color:#494949;
+	background-color: white;
 	cursor:pointer;
+}
+
+.button:hover a {
+	color: white;
 }
 
 

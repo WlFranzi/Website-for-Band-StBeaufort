@@ -11,8 +11,6 @@
 
 <script type="text/javascript" src="http://cdn.tutsplus.com/webdesign/uploads/legacy/tuts/338_parallax/src/js/jquery.easing.1.3.js"></script>
 
-
-
 <ul class="navigation">
 	<li data-slide="1">Contact</li>
 	<li data-slide="2">Newsletter</li>
@@ -38,10 +36,9 @@
 <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 
 <span class="parallaxbg">
-
 	<%= flash[:notice] %>
 
-	<%= form_tag("/static_pages/thank_you.html") do %>
+	<%= form_tag("/static_pages/thank_you") do %>
 	<div class="row">
 		<div class="form-group">
 			<%= label_tag :name, "Name" %>
