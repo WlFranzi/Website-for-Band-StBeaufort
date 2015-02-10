@@ -1,3 +1,50 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+footer {
+    background: #000;
+    color: #fff;
+    margin: 0;
+}
+.footer_inner {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 10px 60px;
+    position: relative;
+}
+.footer_links {
+    display: block;
+    font-size: 12px;
+    line-height: 26px;
+    color: #808080;
+    margin: 0 239px 0 140px;
+    text-align: center;
+}
+.footer_links a { color: #808080; text-decoration: none; padding: 0 2px; }
+.footer_links a:hover { color: #fff; }
+.footer_social { float: right; }
+.footer_social a { background: url(../img/footer_icons.png) top left no-repeat; display: block; float: left; height: 26px; text-indent: -6218em; }
+.header_social { clear: both; width: 272px; margin: 0 auto; }
+.header_social a { background: url(../img/header_icons.png) top left no-repeat; display: block; float: left; height: 26px; text-indent: -6218em; }
+
+a.social_facebook { width: 28px; background-position: 0 0; }
+a.social_twitter { width: 37px; background-position: -28px 0; }
+a.social_instagram { width: 34px; background-position: -65px 0; }
+a.social_youtube { width: 39px; background-position: -98px 0; }
+a.social_spotify { width: 32px; background-position: -136px 0; }
+a.social_soundcloud { width: 48px; background-position: -168px 0; }
+a.social_itunes { width: 25px; background-position: -215px 0; }
+a.social_yuku { width: 28px; background-position: -240px 0; }
+
+a.social_facebook:hover { width: 28px; background-position: 0 -26px; }
+a.social_twitter:hover { width: 37px; background-position: -28px -26px; }
+a.social_instagram:hover { width: 34px; background-position: -65px -26px; }
+a.social_youtube:hover { width: 39px; background-position: -98px -26px; }
+a.social_spotify:hover { width: 32px; background-position: -136px -26px; }
+a.social_soundcloud:hover { width: 48px; background-position: -168px -26px; }
+a.social_itunes:hover { width: 25px; background-position: -215px -26px; }
+a.social_yuku:hover { width: 28px; background-position: -240px -26px; }
