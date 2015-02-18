@@ -6,10 +6,8 @@ Rails.application.routes.draw do
   get 'static_pages/home'
 
   get 'static_pages/music'
-
-  get 'contact', to: 'messages#new', as: 'contact'
  
-  post 'contact', to: 'messages#create'
+  post 'static_pages/thank_you'
 
   root 'static_pages#home'
 
