@@ -1,4 +1,4 @@
-ActionMailer::Base.mail(:from => 'from@domain.com', :to => 'to@domain.com', :subject => "Welcome to My Awesome Site", :body => 'I am the email body.').deliver
+ActionMailer::Base.mail(:from => 'from@domain.com', :to => 'franzisksa.wittleder@gmail.com', :subject => "Welcome to My Awesome Site", :body => 'I am the email body.').deliver
 
 
  def thank_you
