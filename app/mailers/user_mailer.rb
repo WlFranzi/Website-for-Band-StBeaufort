@@ -1,6 +1,5 @@
 class UserMailer < ActionMailer::Base
   default from: "franziska.wittleder@gmail.com"
-end
 
   def contact_form(email, name, message)
 	@message = message
