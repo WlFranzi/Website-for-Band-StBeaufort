@@ -12,9 +12,6 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'bootstrap-sass', '~> 3.3.3'
 
-
-gem 'turbolinks'
-
 group :development do
   gem 'sqlite3'
 end
