@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
   resources :users
+  resources :messages
 
   get 'static_pages/contact'
 
   get 'static_pages/home'
 
   get 'static_pages/music'
+
+  get 'static_pages/pictures'
  
   post 'static_pages/thank_you'
 

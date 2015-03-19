@@ -1,25 +1,5 @@
 
 @charset "UTF-8";
-@import "reset-min.css";
-
-
-/* CSS Document */
-
-
-/*
-	----------------------------
-	HTML SELECTORS
-	____________________________
-*/
-
-
-
-
-/*
-	----------------------------
-	LAYOUT
-	____________________________
-*/
 
 
 #wrapper { 
@@ -27,26 +7,6 @@
 	margin: 0 auto; 
 	padding: 48px 0 72px; 
 }
-
-#main { 
-width: 310px;
-float: left;
-background-color: #000;
-}
-
-#main a {
-	color: #fff;
-	font-size: 20px;
-	font-family: 'Berkshire Swash', cursive;
-}
-
-#main ul {
-	padding-top: 30px;
-	margin-left: 13px;
-}
-
-
-#main > p, #main > div { margin-left: 7px; }
 
 #sidebar { 
 	width: 280px; 
@@ -63,21 +23,26 @@ background-color: #000;
 	____________________________
 */
 
-
-#video-controls { 
-	width: 333px; 
-	background-color: #000;
-	position: absolute;
-	bottom: 72px;
-}
-#video-controls a { color: #ddd; text-decoration: underline; }
-
 .black-50-social {
 	background-color: #000;
 	position: absolute;
 	color: #fff;
 	bottom: 130px;
 	width: 333px;
+	text-align: center;
+}
+
+#video-controls { 
+	width: 333px; 
+	background-color: #000;
+	position: absolute;
+	bottom: 72px;
+	color: white;
+	text-align: center;
+}
+
+#video-controls a {
+	color: white;
 }
 
 /*

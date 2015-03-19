@@ -30,14 +30,14 @@ html,body{
 }
 
 .envatologo {
-position:fixed;
-top:16.333%;
+position:absolute;
+top:12.333%;
 left:29.666%;
 width:310px;
-height: 490px;
+height: 560px;
 margin-top:-41px;
 margin-left:-223px;
-z-index:1;
+z-index:100;
 background-color: #000;
 }
 

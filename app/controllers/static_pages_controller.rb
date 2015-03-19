@@ -17,6 +17,7 @@ class StaticPagesController < ApplicationController
 	  	:to => 'franziska.wittleder@gmail.com', 
 	  	:subject => "Huhu! A new contact form message from #{@name}", 
 	  	:body => @message).deliver
+  redirect_to action: :contact
  end
 
 end

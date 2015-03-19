@@ -1,31 +1,3 @@
-
-
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
-<ul class="navigation">
-	<li data-slide="1">Contact</li>
-	<li data-slide="2">Newsletter</li>
-	<li data-slide="3">Booking</li>
-	<li data-slide="4">Share</li>
-</ul>
-        
-
-<div class="envatologo">
-<div class="black-50">
-	<i href="../../static_pages/home"><img src="../images/logo.jpg" alt="St. Beaufort Logo" id="logo-contact" style="width:272px;height:272px" /></i>
-	<ul style="list-style-type:none">
-	 <li class="nav link"> <%= link_to 'Home', static_pages_home_path %> </li>
-	 <li> ____________________</li>
-	 <li class="nav link"> <%= link_to 'Music', static_pages_music_path %> </li>
-	 <li> ____________________</li>
-	 <li class="nav link"> <%= link_to 'Contact', static_pages_contact_path %> </li>
-	</ul>  
-</div>
-</div>
-
-
-<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
-
 <span class="parallaxbg">
 	<%= flash[:notice] %>
 
@@ -43,51 +15,7 @@
 			<%= label_tag :message, "Message" %>
 			<%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
 		</div>		
+			<%= submit_tag "Send" %>   
 	</div> 
-	<%= submit_tag "Send" %>   
 	<% end %>
 </span>
-		
-<a class="button" data-slide="2" title=""></a>
-
-</div><!--End Slide 1-->
-
-
-
-<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-	<div class="wrapper">
-
-	<img src="../../images/crowd.jpg" id="img1" data-stellar-ratio="3" data-stellar-vertical-offset="-55"alt="" style="width:150px;height:150px">
-	<img src="../../images/henne.jpg" id="img2" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="" style="width:150px;height:150px">
-	<img src="../../images/drums.jpg" id="img3" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="" style="width:150px;height:150px">
-	<img src="../../images/boyz.jpg" id="img4" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"alt="" style="width:150px;height:150px">
-	<img src="../../images/crowd.jpg" id="img5" data-stellar-ratio="3" data-stellar-vertical-offset="-55"alt="" style="width:150px;height:150px">
-	<img src="../../images/crowd.jpg" id="img6" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="" style="width:150px;height:150px">
-	<img src="../../images/bam.jpg" id="img7" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="" style="width:150px;height:150px">
-	<img src="../../images/henne.jpg" id="img8" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"alt="" style="width:150px;height:150px">	
-
-</div>
-<a class="button" data-slide="3" title=""></a>
-
-</div><!--End Slide 2-->
-
-
-<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
-	<div class="wrapper">
-	
-		
-	<img src="../../images/crowd.jpg" id="img9" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102"alt="" style="width:150px;height:150px">
-	<img src="../../images/crowd.jpg" id="img10" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="" style="width:150px;height:150px">
-	<img src="../../images/crowd.jpg" id="img11" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200"alt="" style="width:150px;height:150px">
-	<img src="../../images/crowd.jpg" id="img12" data-stellar-ratio="3" data-stellar-vertical-offset="-200"alt="" style="width:150px;height:150px">
-	<img src="../../images/crowd.jpg" id="img13" data-stellar-ratio="1" data-stellar-vertical-offset="-200"alt="" style="width:150px;height:150px">
-	<img src="../../images/crowd.jpg" id="img14" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200"alt="" style="width:150px;height:150px">
-</div>
-<a class="button" data-slide="4" title=""></a>
-
-</div><!--End Slide 3-->
-
-<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
-	<span class="parallaxbg">Use the parallax effects on background images too!</span>
-
-</div><!--End Slide 4-->
