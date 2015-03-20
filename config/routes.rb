@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get 'static_pages/music'
 
-  get 'static_pages/pictures'
+  get 'static_pages/story'
  
   post 'static_pages/thank_you'
 

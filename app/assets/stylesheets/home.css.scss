@@ -1,7 +1,6 @@
 
 @charset "UTF-8";
 
-
 #wrapper { 
 	width: 960px; 
 	margin: 0 auto; 
@@ -33,12 +32,13 @@
 }
 
 #video-controls { 
-	width: 333px; 
-	background-color: #000;
-	position: absolute;
-	bottom: 72px;
-	color: white;
-	text-align: center;
+  width: 333px;
+  background-color: #000;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-top: 450px;
+  margin-right: 100px;
 }
 
 #video-controls a {
