@@ -50,7 +50,7 @@ ol { margin-left: 36px; }
      
 html,body{
 	height:100%;
-	font-family: 'Lato', sans-serif; lighter;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .navigation{
@@ -95,7 +95,7 @@ background-color: #000;
 
 .envatologo a {
 	color: #fff;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .black-50 ul {
