@@ -5,8 +5,11 @@
     <%= flash[:notice] %>
 
 	<%= form_tag("/static_pages/thank_you") do %>
-	
+
 <div class="row">
+
+	<p> Henric Hungerhoff; Linienstrasse 130 10115 Berlin </p> 
+	<br><br>
 	<p>Contact Us! <br> <br> (Booking, Questions, anything else?)</p>
 	<br><br><br><br>
 
@@ -22,9 +25,18 @@
 			<%= label_tag :message, "Message" %>
 			<%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
 	</div>		
-			<%= submit_tag "Send" %>   
+			<%= submit_tag "Send" %>  
+
+    
 	</div> 
 	    <% end %>
+
+	
+	    
+	    
+
+
+
 </span>
 
 </div>
