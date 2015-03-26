@@ -1,0 +1,48 @@
+.yellowish {
+  background-image: url('../../images/background.jpg');
+  padding-bottom: 100px;
+}
+
+p, ol, ul, td {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+a {
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+}
+
+ &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+  
+ul li {
+   font-size: 12px;
+  }
