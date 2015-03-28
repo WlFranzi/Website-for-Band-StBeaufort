@@ -104,7 +104,7 @@ html,body {
 }
 
 .black-50 ul {
-	padding-top: 30px;
+	padding-top: 50px;
 	margin-left: 48px;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -112,7 +112,9 @@ html,body {
 }
 
 .black-50 li {
-  padding-top: 3px;
+  padding-bottom: 10px;
   text-align: center;
-  padding-right: 50px;
+  border-bottom: solid;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
 }
