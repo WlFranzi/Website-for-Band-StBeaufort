@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :users
   resources :messages
 
@@ -9,6 +10,8 @@ Rails.application.routes.draw do
   get 'static_pages/music'
 
   get 'static_pages/story'
+
+  get 'static_pages/admin'
  
   post 'static_pages/thank_you'
 
