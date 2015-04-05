@@ -1,18 +1,29 @@
 
-<div class="yellowish">
-<span class="parallaxbg">
-    
     <%= flash[:notice] %>
 
 	<%= form_tag("/static_pages/thank_you") do %>
 
+
+<div class="backbutton">
+<a class="nav link"> <%= link_to '< back', static_pages_home_path %> </a>
+</div>
+
+<div class="slide" id="slide3" data-slide="1" data-stellar-background-ratio="0.5">
+<div class="transformation">
+<a> Contact & <br> Booking </a>
+</div>
+
+</div><!--End Slide 1-->
+
 <div class="row">
 
+<div class="col-xs-6">
 	<p> Henric Hungerhoff; Linienstrasse 130 10115 Berlin </p> 
 	<br><br>
-	<p>Contact Us! <br> <br> (Booking, Questions, anything else?)</p>
-	<br><br><br><br>
+	<p>Contact Us! </p>
+</div>
 
+<div class="col-xs-6">
 	<div class="form-group">
 			<%= label_tag :name, "Name" %>
 		    <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Name" %>
@@ -24,20 +35,8 @@
 	<div class="form-group">
 			<%= label_tag :message, "Message" %>
 			<%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
-	</div>		
-			<%= submit_tag "Send" %>  
-
-    
+	</div>		 
+			<%= submit_tag "Send" %> 
 	</div> 
 	    <% end %>
-
-	
-	    
-	    
-
-
-
-</span>
-
 </div>
-
