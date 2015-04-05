@@ -24,8 +24,7 @@ h1, h2 {
 	line-height: 20px; 
 	font-weight: normal; 
 	letter-spacing: -1px; 
-	color: #fff; 
-}
+	}
 
 h3 { 
 	font-size: 18px; 
@@ -79,15 +78,14 @@ html,body {
 
 .navigation li:hover,.active {
 	cursor:pointer;
-	width:100px!important;
 	text-decoration: none;
 	color: #F2CF5C; 
 }
 
 .envatologo {
 	position:absolute;
-	top:9.333%;
-	left:80.666%;
+	top: 15.333%;
+	left: 92.666%;
 	width:310px;
 	height: 560px;
 	margin-top:-41px;
@@ -104,7 +102,7 @@ html,body {
 }
 
 .black-50 ul {
-	padding-top: 50px;
+	padding-top: 35px;
 	margin-left: 48px;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -116,4 +114,11 @@ html,body {
   text-align: center;
   border-bottom: solid;
   border-bottom-width: 1px;
+}
+
+
+#wrappers { 
+	width: 960px; 
+	margin: 0 auto; 
+	padding-top: 240px;
 }

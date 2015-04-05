@@ -4,13 +4,12 @@
 #wrapper { 
 	width: 960px; 
 	margin: 0 auto; 
-	padding: 48px 0 72px; 
 }
 
 #sidebar { 
 	width: 280px;
-	padding-left: 530px;
-
+	padding-left: 580px;
+	padding-top: 30px;
 }
 
 #sidebar ol { 
@@ -22,27 +21,9 @@
 	____________________________
 */
 
-.black-50-social {
-	position: absolute;
-	color: #fff;
-	bottom: 130px;
-	width: 333px;
-	text-align: center;
-}
 
-#video-controls { 
-  width: 333px;
-  background-color: #000;
-  position: relative;
-  color: white;
-  text-align: center;
-  margin-top: 450px;
-  margin-right: 100px;
-}
 
-#video-controls a {
-	color: white;
-}
+
 
 /*
 	----------------------------
@@ -58,7 +39,7 @@
   	padding-right: 70px;
   	padding-left: 12px;
   	padding-right: 70px;
-  	padding-top: 20px;
+  	padding-top: 15px;
   }
 
 
