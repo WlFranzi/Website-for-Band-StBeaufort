@@ -1,0 +1,405 @@
+/* line 2, /Users/fwittled/Desktop/blog/app/assets/stylesheets/contact.css.scss */
+p, ol, ul, td {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 7, /Users/fwittled/Desktop/blog/app/assets/stylesheets/contact.css.scss */
+a {
+  color: #000;
+}
+/* line 9, /Users/fwittled/Desktop/blog/app/assets/stylesheets/contact.css.scss */
+a:visited {
+  color: #666;
+}
+
+/* line 15, /Users/fwittled/Desktop/blog/app/assets/stylesheets/contact.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 20, /Users/fwittled/Desktop/blog/app/assets/stylesheets/contact.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 26, /Users/fwittled/Desktop/blog/app/assets/stylesheets/contact.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 35, /Users/fwittled/Desktop/blog/app/assets/stylesheets/contact.css.scss */
+ul li {
+  font-size: 12px;
+}
+/* line 4, /Users/fwittled/Desktop/blog/app/assets/stylesheets/home.css.scss */
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* line 11, /Users/fwittled/Desktop/blog/app/assets/stylesheets/home.css.scss */
+#sidebar {
+  width: 280px;
+  padding-left: 580px;
+  padding-top: 30px;
+}
+
+/* line 17, /Users/fwittled/Desktop/blog/app/assets/stylesheets/home.css.scss */
+#sidebar ol {
+  margin: 12px 0 12px 22px;
+}
+
+/*
+	----------------------------
+	PAGE/SECTION SPECIFIC
+	____________________________
+*/
+/*
+	----------------------------
+	UTILITY CLASSES
+	____________________________
+*/
+/* line 34, /Users/fwittled/Desktop/blog/app/assets/stylesheets/home.css.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 39, /Users/fwittled/Desktop/blog/app/assets/stylesheets/home.css.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 2, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.row {
+  width: 70%;
+  margin-left: 214px !important;
+  color: black;
+  padding-top: 80px;
+  font-size: 23px;
+  height: 500px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 13, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.row p {
+  font-size: 20px;
+}
+
+/* line 17, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.col-md-4 {
+  width: 160%;
+}
+
+/* line 21, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.backbutton {
+  background-color: black;
+  color: #F2CF5C;
+}
+
+/* line 26, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.backbutton a {
+  color: #F2CF5C;
+}
+
+/* line 30, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.slide {
+  background-attachment: fixed;
+  position: relative;
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* line 36, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.wrapper {
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 140px;
+}
+
+/* line 43, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.slideno {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 100px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 53, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.button:hover a {
+  color: yellow;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+/* line 62, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+#slide1 {
+  background-image: url("../../images/boyz.jpg");
+  width: 100%;
+  height: 390px;
+}
+
+/* line 68, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.transformation {
+  padding-top: 30px;
+  padding-left: 45px;
+  font-size: 30px;
+  font-weigth: bold;
+}
+
+/* line 75, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.label {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  color: black !important;
+  font-size: 28px;
+  font-weight: bolder;
+  text-aligne: center;
+}
+
+/* line 86, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+#slide1 .parallaxbg {
+  position: relative;
+  font-size: 28px;
+  color: rgba(51, 51, 51, 0.3);
+  text-align: center;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+/* line 95, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.parallaxbg a {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-left: 230px !important;
+  color: black;
+}
+
+/* line 102, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+textarea.form-control {
+  height: 90px;
+}
+
+/******************************
+ SLIDE 2 
+*******************************/
+/* line 109, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+#slide2 {
+  width: 100%;
+  height: 500px;
+}
+
+/* line 114, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+#img7 {
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  z-index: 1;
+}
+
+/******************************
+ SLIDE 3 
+*******************************/
+/* line 124, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+#slide3 {
+  background-image: url("../../images/boyz.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+/* line 130, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+#img10 {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+}
+
+/* line 136, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+.transformation1 {
+  margin-left: 600px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  font-weigth: bold;
+  font-size: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+  /******************************
+ SLIDE 4 
+*******************************/
+/* line 151, /Users/fwittled/Desktop/blog/app/assets/stylesheets/pictures.css.scss */
+#slide4 {
+  background-image: url("../../images/logo2.jpg");
+  width: 100%;
+  height: 160px;
+}
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+a:hover {
+  color: #F2CF5C;
+  text-decoration: none;
+}
+
+/* line 23, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+h1, h2 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+/* line 30, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 8px 0;
+}
+
+/* line 36, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+h4 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 42, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+h5 {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 48, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+ol {
+  margin-left: 36px;
+}
+
+/* CSS Document */
+/* line 56, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+html, body {
+  height: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 61, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 65, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.navigation {
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+}
+
+/* line 71, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.navigation li {
+  color: #333333;
+  display: block;
+  padding: 0 10px;
+  line-height: 30px;
+  margin-bottom: 2px;
+  -webkit-transition: all .2s ease-in-out;
+  border-bottom: 1px solid black;
+  text-align: left;
+  width: 53px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 84, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.navigation li:hover, .active {
+  cursor: pointer;
+  text-decoration: none;
+  color: #F2CF5C;
+}
+
+/* line 90, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.envatologo {
+  position: absolute;
+  top: 21.333%;
+  left: 92.666%;
+  width: 240px;
+  height: 495px;
+  margin-top: -41px;
+  margin-left: -223px;
+  z-index: 100;
+  background-color: #000;
+}
+
+/* line 102, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.envatologo > p, .envatologo > div {
+  margin-left: 0;
+}
+
+/* line 104, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.envatologo a {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* line 109, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.black-50 ul {
+  padding-top: 35px;
+  margin-left: 48px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+/* line 117, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.black-50 li {
+  padding-bottom: 5px;
+  text-align: center;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+}
+
+/* line 124, /Users/fwittled/Desktop/blog/app/assets/stylesheets/application.css.scss */
+.black-50 {
+  background: url(../media/black-50-trans.png);
+  padding-left: 9px;
+  padding-right: 70px;
+  padding-top: 9px;
+}
