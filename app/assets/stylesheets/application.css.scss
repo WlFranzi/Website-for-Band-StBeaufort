@@ -84,7 +84,7 @@ html,body {
 
 .envatologo {
 	position:absolute;
-	top: 15.333%;
+	top: 19.333%;
 	left: 92.666%;
 	width:310px;
 	height: 560px;
@@ -116,9 +116,12 @@ html,body {
   border-bottom-width: 1px;
 }
 
+.black-50 { 
+	background: url(../media/black-50-trans.png); 
+  	padding-left: 20px;
+  	padding-right: 70px;
+  	padding-left: 12px;
+  	padding-right: 70px;
+  	padding-top: 20px;
+  }
 
-#wrappers { 
-	width: 960px; 
-	margin: 0 auto; 
-	padding-top: 240px;
-}
